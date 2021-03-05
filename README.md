@@ -9,23 +9,23 @@
 ## 4. [Questions](#Questions)
 
 # [Linear programs](https://github.com/vitalikulsha/java-course1/tree/master/2_Linear_programs)
-1. Найдите  значение функции: z = ( (a – 3 ) * b / 2) + c.
+1. [FunctionValueZ](https://github.com/vitalikulsha/java-course1/blob/master/2_Linear_programs/FunctionValueZ_01.java) - Найдите  значение функции: z = ( (a – 3 ) * b / 2) + c.
 
-2. Вычислить значение выражения по формуле (все переменные принимают действительные значения):
+2. [FunctionValueY](https://github.com/vitalikulsha/java-course1/blob/master/2_Linear_programs/FunctionValueY_02.java) - Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 
 ![](https://github.com/vitalikulsha/java-course1/blob/master/img/basics_3-2.png)
 
-3. Вычислить значение выражения по формуле (все переменные принимают действительные значения):
+3. [FunctionValueA](https://github.com/vitalikulsha/java-course1/blob/master/2_Linear_programs/FunctionValueA_03.java) - Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 
 ![](https://github.com/vitalikulsha/java-course1/blob/master/img/basics_3-3.png)
 
-4. Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях). Поменять местами дробную и целую части числа и вывести полученное значение числа.
+4. [ReverseNumbers](https://github.com/vitalikulsha/java-course1/blob/master/2_Linear_programs/ReverseNumbers_04.java) - Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях). Поменять местами дробную и целую части числа и вывести полученное значение числа.
 
-5. Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести данное значение длительности в часах, минутах и секундах в следующей форме:
+5. [NumbersInSeconds](https://github.com/vitalikulsha/java-course1/blob/master/2_Linear_programs/NumbersInSeconds_05.java) - Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести данное значение длительности в часах, минутах и секундах в следующей форме:
 
 ННч ММмин SSc.
 
-6. Для данной области составить линейную программу, которая печатает true, если точка с координатами (х, у) принадлежит закрашенной области, и false — в противном случае:
+6. [CoordinatesXY](https://github.com/vitalikulsha/java-course1/blob/master/2_Linear_programs/CoordinatesXY_06.java) - Для данной области составить линейную программу, которая печатает true, если точка с координатами (х, у) принадлежит закрашенной области, и false — в противном случае:
 
 ![](https://github.com/vitalikulsha/java-course1/blob/master/img/basics_3-6.png)
 
