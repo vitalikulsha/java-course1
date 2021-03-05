@@ -34,15 +34,15 @@
 
 # [Branching](https://github.com/vitalikulsha/java-course1/tree/master/3_Branching)
 
-1. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
+1. [Triangle](https://github.com/vitalikulsha/java-course1/blob/master/3_Branching/Triangle_01.java) - Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
 
-2. Найти max{min(a, b), min(c, d)}.
+2. [MaxOfMin](https://github.com/vitalikulsha/java-course1/blob/master/3_Branching/MaxOfMin_02.java) - Найти max{min(a, b), min(c, d)}.
 
-3. Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
+3. [ThreePoints](https://github.com/vitalikulsha/java-course1/blob/master/3_Branching/ThreePoints_03.java) - Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
 
-4. Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через отверстие.
+4. [Brick](https://github.com/vitalikulsha/java-course1/blob/master/3_Branching/Brick_04.java) - Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через отверстие.
 
-5. Вычислить значение функции:
+5. [FunctionValueF](https://github.com/vitalikulsha/java-course1/blob/master/3_Branching/FunctionValueF_05.java) - Вычислить значение функции:
 
 ![](https://github.com/vitalikulsha/java-course1/blob/master/img/basics_4-5.png)
 
@@ -50,21 +50,21 @@
 
 # [Cycles](https://github.com/vitalikulsha/java-course1/tree/master/4_Cycles)
 
-1. Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует все числа от 1 до введенного пользователем числа.
+1. [SumNumbers](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/SumNumbers_01.java) - Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует все числа от 1 до введенного пользователем числа.
 
-2. Вычислить значения функции на отрезке [а,b] c шагом h:
+2. [FunctionXY](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/FunctionXY_02.java) - Вычислить значения функции на отрезке [а,b] c шагом h:
 
 ![](https://github.com/vitalikulsha/java-course1/blob/master/img/basics_cycle.png)
 
-3. Найти сумму квадратов первых ста чисел.
+3. [SumSquares100](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/SumSquares100_03.java) - Найти сумму квадратов первых ста чисел.
 
-4. Составить программу нахождения произведения квадратов первых двухсот чисел.
+4. [ProductSquares200](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/ProductSquares200_04.java) - Составить программу нахождения произведения квадратов первых двухсот чисел.
 
-5. Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.
+5. [NumbersOfChar](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/NumbersOfChar_05.java) - Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.
 
-6. Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа. m и n вводятся с клавиатуры.
+6. [DivisorMN](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/DivisorMN_06.java) - Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа. m и n вводятся с клавиатуры.
 
-7. Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
+7. [NumberOfDigits](https://github.com/vitalikulsha/java-course1/blob/master/4_Cycles/NumberOfDigits_07.java) - Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
 
 [:arrow_up: Оглавление](#ОГЛАВЛЕНИЕ)
 
