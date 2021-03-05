@@ -4,7 +4,7 @@
 
 # ОГЛАВЛЕНИЕ
 ## 1. [Linear programs](#Linear-programs)
-## 2. [Arrays of arrays](#Arrays-of-arrays)
+## 2. [Branching](#Branching)
 ## 3. [Sorting](#Sorting)
 ## 4. [Decomposition using methods](#Decomposition-using-methods)
 ## 5. [Questions](#Questions)
@@ -33,49 +33,19 @@
  
 [:arrow_up: Оглавление](#ОГЛАВЛЕНИЕ)
 
-# [Arrays of arrays](https://github.com/vitalikulsha/java-course2/tree/master/ArraysOfArrays)
+# [Branching](https://github.com/vitalikulsha/java-course1/tree/master/3_Branching)
 
-1. [MatrixOddColumn](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixOddColumn.java) -  Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
+1. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
 
-2. [MatrixIsSquare](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixIsSquare.java) - Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
+2. Найти max{min(a, b), min(c, d)}.
 
-3. [MatrixPrintColumnAndLin](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixPrintColumnAndLine.java) - Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+3. Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
 
-4. [MatrixSquare](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSquare4.java) - Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
+4. Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через отверстие.
 
-![Alt-текст](https://github.com/vitalikulsha/java-course2/blob/master/img/algorithmization_4-4.png)
+5. Вычислить значение функции:
 
-5. [MatrixSquare](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSquare5.java) - Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
-
-![Alt-текст](https://github.com/vitalikulsha/java-course2/blob/master/img/algorithmization_4-5.png)
-
-6. [MatrixSquare](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSquare6.java) - Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
-
-![Alt-текст](https://github.com/vitalikulsha/java-course2/blob/master/img/algorithmization_4-6.png)
-
-7. [MatrixSquareAndCountPositiveNumber](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSquareAndCountPositiveNumber.java) - Сформировать квадратную матрицу порядка N по правилу:
-
-![Alt-текст](https://github.com/vitalikulsha/java-course2/blob/master/img/algorithmization_4-7.png)
-
-и подсчитать количество положительных элементов в ней.
-
-8. [MatrixReplacingColumns](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixReplacingColumns.java) - В числовой матрице поменять местами два столбца любых столбца, т. е. все элементы одного столбца поставить на соответствующие им позиции другого, а его элементы второго переместить в первый. Номера столбцов вводит пользователь с клавиатуры.
-
-9. [MatrixSumOfElements](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSumOfElements_09.java) - Задана матрица неотрицательных чисел. Посчитать сумму элементов в каждом столбце. Определить, какой столбец содержит максимальную сумму.
-
-10. [MatrixPositiveElements](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixPositiveElements_10.java) - Найти положительные элементы главной диагонали квадратной матрицы.
-
-11. [Matrix](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/Matrix_11.java) - Матрицу 10x20 заполнить случайными числами от 0 до 15. Вывести на экран саму матрицу и номера строк, в которых число 5 встречается три и более раз.
-
-12. [MatrixSortLine](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSortLine_12.java) - Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
-
-13. [MatrixSortColumn](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSortColumn_13.java) - Отсотрировать стобцы матрицы по возрастанию и убыванию значений эементов.
-
-14. [MatrixZeroAndOne](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixZeroAndOne_14.java) - Сформировать случайную матрицу m x n, состоящую из нулей и единиц, причем в каждом столбце число единиц равно номеру столбца.
-
-15. [MatrixSearchMax](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixSearchMax_15.java) - Найдите наибольший элемент матрицы и заменить все нечетные элементы на него.
-
-16. [MatrixMagicSquare](https://github.com/vitalikulsha/java-course2/blob/master/ArraysOfArrays/MatrixMagicSquare_16.java) -  Магическим квадратом порядка n называется квадратная матрица размера nxn, составленная из чисел 1, 2, 3, ..., так, что суммы по каждому столбцу, каждой строке и каждой из двух больших диагоналей равны между собой. Построить такой квадрат. 
+![](https://github.com/vitalikulsha/java-course1/blob/master/img/basics_4-5.png)
 
 [:arrow_up: Оглавление](#ОГЛАВЛЕНИЕ)
 
